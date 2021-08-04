@@ -1,0 +1,38 @@
+{
+  "name": "jl-ts-rest-template-express",
+  "version": "1.0.0",
+  "description": "An express template to create a restful api with typescript",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "init-config": "npm install",
+    "build": "tsc",
+    "clean": "node ./scripts/clean.js",
+    "dev:tsc": "tsc --watch",
+    "dev:nodemon": "nodemon ./dist/index.js ",
+    "test": "jest"
+  },
+  "author": "JELimaR",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/cors": "^2.8.12",
+    "@types/dotenv": "^8.2.0",
+    "@types/express": "^4.17.13",
+    "@types/jest": "^26.0.24",
+    "@types/morgan": "^1.9.3",
+    "@types/node": "^16.4.3",
+    "@typescript-eslint/eslint-plugin": "^4.28.3",
+    "@typescript-eslint/parser": "^4.28.3",
+    "eslint": "^7.30.0",
+    "jest": "^27.0.6",
+    "nodemon": "^2.0.12",
+    "ts-jest": "^27.0.4",
+    "typescript": "^4.3.5"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0"
+  }
+}
